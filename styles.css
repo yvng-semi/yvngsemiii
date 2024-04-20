@@ -1,0 +1,48 @@
+/* styles.css */
+body {
+    background-image: url('images/Travis-Scott_208716_AstroworldFestival2018_RogerHo.webp');
+    background-size: cover;
+    background-position: center;
+    color: rgb(0, 0, 0);
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    z-index: 1;
+}
+
+body::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 150%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: -1; 
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+}
+
+img {
+    max-width: 300px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    position: relative;
+    z-index: 3;
+}
+
+a {
+    color: red;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
